@@ -1,6 +1,6 @@
 language: python
 python:
-- '3.6'
+- '2.7'
 before_install:
 - openssl aes-256-cbc -K $encrypted_f878a7b22ad9_key -iv $encrypted_f878a7b22ad9_iv
   -in secrets.tar.enc -out secrets.tar -d
