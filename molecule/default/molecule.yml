@@ -7,7 +7,7 @@ lint:
   name: yamllint
 platforms:
   - name: dbtravis
-    image: reddit-full-1548324659
+    image: ubuntu-1604-xenial
     machine_type: f1-micro
     zone: europe-west1-b
 provisioner:
