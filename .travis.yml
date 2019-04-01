@@ -13,7 +13,7 @@ env:
   matrix:
   - GCE_CREDENTIALS_FILE="$(pwd)/credentials.json"
 script:
-- molecule create
+- molecule --debug create
 - molecule converge
 - molecule verify
 after_script:
