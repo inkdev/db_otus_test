@@ -6,7 +6,7 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: db_travis
+  - name: dbtravis
     image: reddit-full-1548324659
     machine_type: f1-micro
     zone: europe-west1-b
